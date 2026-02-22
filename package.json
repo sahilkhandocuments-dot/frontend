@@ -1,0 +1,37 @@
+{
+  "name": "eventx-frontend",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "start": "vite",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "react-router-dom": "^6.18.0",
+    "framer-motion": "^10.12.16",
+    "@tanstack/react-query": "^5.7.0",
+    "react-hook-form": "^7.45.1",
+    "react-icons": "^4.11.0",
+    "clsx": "^1.2.1",
+    "react-confetti": "^6.1.0",
+    "react-dropzone": "^14.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "tailwindcss": "^3.3.6",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "prettier": "^3.0.0"
+  }
+}
